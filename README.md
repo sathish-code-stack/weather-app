@@ -1,16 +1,47 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Weather Report Application
 
-Currently, two official plugins are available:
+## About the Project
+This is a simple Weather Report Application built using React. It allows users to search for any city and view its current weather information using the OpenWeatherMap API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Search weather by city name.
+- Display current temperature.
+- Show weather conditions.
+- Display humidity and wind speed.
+- Show feels-like temperature and pressure.
+- Handle invalid city names and API errors.
+- Responsive design for different screen sizes.
 
-## React Compiler
+## Technologies Used
+- React JS
+- Vite
+- Axios
+- Tailwind CSS
+- OpenWeatherMap API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## How to Run the Project
 
-## Expanding the ESLint configuration
+1. Clone the repository.
+2. Open the project folder in VS Code.
+3. Install dependencies:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   npm install
+
+4. Create a `.env` file in the root folder and add your API key:
+
+   VITE_WEATHER_API_KEY=your_api_key_here
+
+5. Start the development server:
+
+   npm run dev
+
+6. Open the local URL in your browser.
+
+## API Used
+OpenWeatherMap API
+
+https://openweathermap.org/api
+
+## Author
+Created as a React JS practice project.
